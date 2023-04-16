@@ -1,5 +1,5 @@
-import 'package:dart_01/dart_01.dart' as dart_01;
+import 'package:dart_01/bai_1/countBy.dart' as bai1;
 
 void main(List<String> arguments) {
-  print('Hello world: ${dart_01.calculate()}!');
+  print('result: ${bai1.countBy(2, 5)}!');
 }
